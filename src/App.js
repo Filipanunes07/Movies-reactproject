@@ -6,7 +6,7 @@ import {
   Link
 } from "react-router-dom";
 import StartPage from "./components/StartPage";
-import MoviesPage from "./components/MoviesPage"
+import MoviesPage from "./components/CountryList"
 import "./App.css"
 export default function App() {
   return (
@@ -14,12 +14,12 @@ export default function App() {
         <Router>
         <div>
           <nav>
-            <h1>WELCOME TO MOVIES´ WORLD</h1>
+            <h1>WELCOME TO THE WORLD</h1>
             <br></br>
             <p>by Filipa Nunes</p>
           </nav>
           <Switch>
-          <Route path="/MoviePage">
+          <Route path="/CountryList">
               <MoviesPage />
             </Route>
             <Route path="/">

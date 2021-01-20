@@ -7,7 +7,7 @@ export default function StartPage() {
     let history = useHistory();
   
     const redirect = () => {
-      history.push('/MoviePage')
+      history.push('/CountryList')
     }
   
     return (

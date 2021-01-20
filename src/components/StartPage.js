@@ -1,6 +1,7 @@
 import React from "react";
-import "./StartPage.css";
 import {useHistory} from 'react-router-dom';
+import "bootstrap/dist/css/bootstrap.min.css";
+
 
 export default function StartPage() {
     let history = useHistory();
@@ -11,7 +12,7 @@ export default function StartPage() {
   
     return (
           <div >
-               <button class="button" onClick={redirect}>Start</button>
+               <button type="button" class="btn btn-secondary btn-lg btn-block" onClick={redirect}>Start</button>
           </div>
          
       )

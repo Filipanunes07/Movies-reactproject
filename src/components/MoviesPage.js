@@ -1,10 +1,15 @@
 import React from "react";
-import "./StartPage.css";
+import Movie from "./Movie"
 
-
-export default function MoviesPage() {
-    return (
+class MoviesPage extends React.Component{
+    render(){
+        return( 
         <div>
-        </div>
-    );
+        Movies
+        <Movie title="moby dick" year={1990} director="Quentine" />
+        </div>   
+        );
+    }
 }
+
+export default MoviesPage;

@@ -14,7 +14,9 @@ export default function App() {
         <Router>
         <div>
           <nav>
-            <h1>WELLCOME TO MOVIE´S WORLD</h1>
+            <h1>WELCOME TO MOVIES´ WORLD</h1>
+            <br></br>
+            <p>by Filipa Nunes</p>
           </nav>
           <Switch>
           <Route path="/MoviePage">

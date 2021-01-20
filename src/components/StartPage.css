@@ -1,0 +1,19 @@
+.button{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    height:  38px;
+    line-height:  40px;
+    border:  2px solid white;
+    display:  inline-block;
+    float:  none;
+    text-align:  center;
+    width:  120px;
+    font-size:  14px;
+    color:  #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}

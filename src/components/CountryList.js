@@ -1,6 +1,7 @@
 import React from "react";
 import Country from "./Country";
 import axios from "axios";
+import "./CountryList.css"
 
 class CountryList extends React.Component{
     state={
@@ -1020,11 +1021,11 @@ class CountryList extends React.Component{
     render() {
         return( 
         <div>
-        Country
+        <div className="firstDiv">All countries</div>
         <button onClick={this.fetchCountry}>fetchCountry</button>
-            <div class="row justify-content-between">
+        <div class="justify-content-sm-between">
             {this.state.countries.map((country)=>(<Country {...country} />))}
-            </div>
+        </div>
         </div>
         );
     }

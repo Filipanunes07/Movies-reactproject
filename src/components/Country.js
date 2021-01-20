@@ -15,6 +15,7 @@ function Country (props) {
                         <br></br>
                         Population:  {props.population}
                     </p>
+                    <hr></hr>
                 </div>
             </div>      
     );

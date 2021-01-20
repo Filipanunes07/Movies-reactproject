@@ -4,9 +4,8 @@ import "./Country.css"
 
 function Country (props) {
     return(
-
             <div class="card text-center">
-            <img  src={props.flag} alt="card-img"></img>
+            <img className="image" src={props.flag} alt="card-img"></img>
                 <div class="card-body">
                     <h5 class="card-title">{props.name}</h5>
                     <p class="card-text">

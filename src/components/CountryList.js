@@ -1022,7 +1022,7 @@ class CountryList extends React.Component{
         <div>
         Country
         <button onClick={this.fetchCountry}>fetchCountry</button>
-            <div class="col-md-4">
+            <div class="row justify-content-between">
             {this.state.countries.map((country)=>(<Country {...country} />))}
             </div>
         </div>

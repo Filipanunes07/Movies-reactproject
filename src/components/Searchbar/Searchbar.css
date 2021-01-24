@@ -1,0 +1,12 @@
+.searchbar{
+    background-color: rgb(108,117,125);
+    padding: 12px 16px 12px 48px;
+    position: relative;
+    display: table;
+    margin: auto;
+    border-radius: 8px;
+}
+.searchbar-input{
+    background-color: rgb(108,117,125);
+    color:beige
+}

@@ -15,7 +15,6 @@ function Country (props) {
                         <br></br>
                         Population:  {props.population}
                     </p>
-                    <button>details</button>
                     <button onClick={()=> props.removeCountry(props.name)}>Delete Country</button>
                     <hr></hr>
                 </div>

@@ -19,14 +19,21 @@ class CountryList extends React.Component{
         );
         
     };
+    removeCountry = (event) => {
+        console.log(event)
+        const countryToBeRemovedName = event;
+        const newCountryList = this.state.countries.filter(
+        (country) => country.name !== countryToBeRemovedName);
+        this.setState({ countries: newCountryList });
+      };
 
     render() {
         return( 
         <div>
         <div className="firstDiv">All countries</div>
         <div class="justify-content-sm-between">
-            {this.state.countries.map((country)=>(<Country {...country} />))}
-        </div>
+            {this.state.countries.map((country) => (<Country {...country} removeCountry={this.removeCountry} />))}
+            </div>
         </div>
         );
     }
